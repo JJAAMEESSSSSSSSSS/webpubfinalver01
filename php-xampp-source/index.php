@@ -356,7 +356,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                 </div>
             </div>
             <div class="font-mono text-xs text-amber-100 space-y-1 text-center md:text-right">
-                <div>📍 #1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009</div>
+                <div>📍 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009</div>
                 <div>📞 (63) 045-625-5748</div>
                 <div>✉️ Admissions@Hau.Edu.Ph</div>
             </div>
