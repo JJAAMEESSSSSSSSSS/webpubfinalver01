@@ -128,12 +128,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             <span class="text-amber-500 text-sm">🧡 🧡 🧡</span>
         </div>
 
-        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <!-- Left Poster -->
-            <div class="lg:col-span-7">
-                <div class="bg-[#160803] text-white p-6 rounded-3xl border-4 border-[#3D180A] shadow-2xl">
-                    <div class="flex items-center justify-between border-b border-[#3D180A] pb-3 mb-4">
-                        <span class="font-tech text-xs tracking-widest text-amber-200 uppercase font-bold">SCHOOL OF COMPUTING</span>
+        <!-- Left Poster: Infographic Picture -->
+<div class="lg:col-span-7">
+    <div class="rounded-3xl border-4 border-[#3D180A] shadow-2xl overflow-hidden bg-[#160803]">
+        <C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\829940086_1736469887466023_4592811375484850078_n.png>
+        <img src="assets/images/infographic.png" alt="A Day With The Foxes Infographic" class="w-full h-auto object-cover block">
+    </div>
+</div>
                         <div class="flex items-center gap-1.5 text-[10px] text-amber-300 font-mono">
                             <span class="text-stone-400">COLLABORATED WITH:</span>
                             <span class="px-1.5 py-0.5 rounded bg-[#E65A15] text-white font-bold">SOC ORGS</span>

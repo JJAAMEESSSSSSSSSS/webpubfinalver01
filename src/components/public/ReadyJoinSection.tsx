@@ -38,17 +38,17 @@ export const ReadyJoinSection: React.FC<ReadyJoinSectionProps> = ({
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          {/* Left Side: Retro Arcade Cabinet Graphic */}
+          {/* Left Side: Arcade Graphic Image */}
           <div className="lg:col-span-6 flex justify-center">
-            <div className="relative w-full max-w-md bg-[#160803] p-5 sm:p-7 rounded-3xl border-4 border-[#3D180A] shadow-2xl text-white">
-              {/* Arcade Header Date Badge */}
-              <div className="flex items-center justify-between bg-[#C84E0C] text-white px-3 py-1 rounded-md text-xs font-mono font-bold uppercase mb-4">
-                <span>FEBRUARY 23-24, 2027</span>
-                <FoxMascot size={22} variant="pixel" />
-              </div>
-
-              {/* Arcade Screen Marquee */}
-              <div className="relative bg-[#220D04] rounded-2xl p-6 border-2 border-[#54210C] text-center shadow-inner overflow-hidden">
+            <div className="relative w-full max-w-md rounded-3xl border-4 border-[#3D180A] shadow-2xl overflow-hidden bg-[#160803] group">
+              {C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\Promotional Social.png}
+              <img
+                src={eventInfo.arcadeImageUrl || '/assets/images/arcade.png'}
+                alt="A Day With The Foxes Arcade"
+                className="w-full h-auto object-cover group-hover:scale-[1.01] transition-transform duration-300 block"
+              />
+            </div>
+          </div>
                 {/* CRT Scanline & grid */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#E65A15]/5 to-transparent pointer-events-none" />
 

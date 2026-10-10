@@ -25,13 +25,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Subtle background curved card placeholder */}
           <div className="absolute -left-4 -top-4 w-48 h-56 bg-[#ECD9BF] rounded-3xl -z-0 opacity-70 hidden sm:block" />
 
-          {/* Main Poster Container */}
-          <div className="relative z-10 bg-[#160803] text-white p-5 sm:p-7 rounded-2xl sm:rounded-3xl border-4 border-[#3D180A] shadow-2xl overflow-hidden">
-            {/* Poster Header */}
-            <div className="flex items-center justify-between border-b border-[#3D180A]/80 pb-3 mb-4">
-              <span className="font-tech text-xs tracking-widest text-amber-200 uppercase font-bold">
-                SCHOOL OF COMPUTING
-              </span>
+           {/* Main Infographic / Poster Image Container */}
+<div className="relative z-10 rounded-2xl sm:rounded-3xl border-4 border-[#3D180A] shadow-2xl overflow-hidden bg-[#160803] group">
+  {C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\829940086_1736469887466023_4592811375484850078_n.png}
+  <img
+    src={eventInfo.posterImageUrl || '/assets/images/infographic.png'}
+    alt="A Day With The Foxes Infographic"
+    className="w-full h-auto object-cover group-hover:scale-[1.01] transition-transform duration-300 block"
+  />
+</div>
               <div className="flex items-center gap-1.5 text-[10px] text-amber-300 font-mono">
                 <span className="text-stone-400">COLLABORATED WITH:</span>
                 <span className="px-1.5 py-0.5 rounded bg-[#E65A15] text-white font-bold">SOC</span>

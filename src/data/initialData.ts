@@ -19,7 +19,7 @@ export const INITIAL_EVENT_INFO: EventInfo = {
   whatToExpect: 'Each Organization Prepares Interactive Booths, Demonstrations, Games, Exhibits, And Activities Related To Their Specialization.',
   videoTitle: 'ADF2027 A DAY WITH THE FOXES',
   videoPurpose: 'The purpose of the video is to persuade visitors to explore the School of Computing and encourage them to participate in ADF2027.',
-  videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-screen-close-up-41484-large.mp4',
+  videoUrl: '"C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\Vid_Webpub.mov"',
   readyText: 'Experience games, activities, organizations, and the School of Computing community.'
 };
 
@@ -137,7 +137,7 @@ export const INITIAL_GALLERY: GalleryPhoto[] = [
     id: 1,
     title: 'Future Tech Showcase',
     caption: 'Interactive student presentations - "We Are The Future"',
-    imageUrl: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=700&q=80',
+    imageUrl: 'C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\840308247_956555500334111_8510789120935924391_n.jpg',
     tag: 'Demonstrations',
     rotationDeg: -3
   },
@@ -145,7 +145,7 @@ export const INITIAL_GALLERY: GalleryPhoto[] = [
     id: 2,
     title: 'Packed SOC Auditorium',
     caption: 'Incoming and non-major students filling the main hall',
-    imageUrl: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=700&q=80',
+    imageUrl: 'C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\649282369_1557979173000753_6461318393873207750_n.jpg',
     tag: 'Plenary',
     rotationDeg: 2
   },
@@ -153,7 +153,7 @@ export const INITIAL_GALLERY: GalleryPhoto[] = [
     id: 3,
     title: 'Fox Mascot Campus Parade',
     caption: 'Fox mascot and student leaders welcoming everyone!',
-    imageUrl: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=700&q=80',
+    imageUrl: 'C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images\714759255_1645881884210481_7375684768732861356_n.jpg',
     tag: 'Parade',
     rotationDeg: -1
   }

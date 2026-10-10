@@ -103,7 +103,7 @@ INSERT INTO `event_details` (`id`, `title`, `edition`, `theme`, `tagline`, `abou
 'Each Organization Prepares Interactive Booths, Demonstrations, Games, Exhibits, And Activities Related To Their Specialization.',
 'ADF2027 A DAY WITH THE FOXES',
 'The purpose of the video is to persuade visitors to explore the School of Computing and encourage them to participate in ADF2027.',
-'https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-screen-close-up-41484-large.mp4',
+'C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images',
 'Experience games, activities, organizations, and the School of Computing community.')
 ON DUPLICATE KEY UPDATE `id`=1;
 
