@@ -14,43 +14,42 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAdmin }) => {
         <div className="flex items-center gap-4 text-center md:text-left">
           {/* Seals graphic */}
           <div className="flex items-center gap-2">
-            <div className="w-11 h-11 rounded-full bg-white/95 p-1 flex items-center justify-center shadow-md">
-              <span className="font-tech text-xs font-black text-[#8A2109]">HAU</span>
-            </div>
-            <div className="w-11 h-11 rounded-full bg-amber-200/90 p-1 flex items-center justify-center shadow-md">
-              <FoxMascot size={28} />
-            </div>
-          </div>
+          {/* DALAWANG BILOG NA LOGOS */}
+<div className="flex items-center gap-2.5">
+  {/* 1. Unang Bilog: Holy Angel University Seal */}
+  <div className="w-12 h-12 rounded-full bg-white p-0.5 flex items-center justify-center shadow-md ring-2 ring-white/80 overflow-hidden shrink-0 hover:scale-105 transition-transform" title="Holy Angel University">
+    <img
+      src="/assets/images/hau_seal.svg"
+      alt="Holy Angel University Seal"
+      className="w-full h-full object-contain"
+      onError={(e) => {
+        e.currentTarget.src = '/assets/images/hau_seal.png';
+      }}
+    />
+  </div>
 
-          <div>
-            <div className="font-tech text-base sm:text-lg font-black tracking-wide uppercase text-white drop-shadow-sm">
-              Holy Angel University
-            </div>
-            <div className="font-tech text-xs font-semibold text-amber-100 tracking-wider uppercase">
-              School Of Computing • ADF2027
-            </div>
-          </div>
-        </div>
+  {/* 2. Pangalawang Bilog: School of Computing Seal */}
+  <div className="w-12 h-12 rounded-full bg-white p-0.5 flex items-center justify-center shadow-md ring-2 ring-white/80 overflow-hidden shrink-0 hover:scale-105 transition-transform" title="School of Computing">
+    <img
+      src="/assets/images/soc_seal.svg"
+      alt="School of Computing Seal"
+      className="w-full h-full object-contain"
+      onError={(e) => {
+        e.currentTarget.src = '/assets/images/soc_seal.png';
+      }}
+    />
+  </div>
+</div>
 
-        {/* Right: Official Contact info from Screenshot 3 */}
-        <div className="flex flex-col gap-1.5 font-mono text-xs text-amber-50">
-          <div className="flex items-center gap-2">
-            <MapPin className="w-3.5 h-3.5 shrink-0 text-white" />
-            <span>#1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009</span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <Phone className="w-3.5 h-3.5 shrink-0 text-white" />
-            <span>(63) 045-625-5748</span>
-          </div>
-
-          <div className="flex items-center justify-between gap-2">
-            <div className="flex items-center gap-2">
-              <Mail className="w-3.5 h-3.5 shrink-0 text-white" />
-              <a href="mailto:Admissions@Hau.Edu.Ph" className="hover:underline">
-                Admissions@Hau.Edu.Ph
-              </a>
-            </div>
+{/* Sa tabi ng dalawang bilog: Holy Angel University at SOC */}
+<div>
+  <div className="font-tech text-base sm:text-lg font-black tracking-wide uppercase text-white drop-shadow-sm">
+    Holy Angel University
+  </div>
+  <div className="font-tech text-xs font-semibold text-amber-100 tracking-wider uppercase">
+    School Of Computing • ADF2027
+  </div>
+</div>
 
             <button
               onClick={onOpenAdmin}
