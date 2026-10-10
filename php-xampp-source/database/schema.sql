@@ -103,7 +103,11 @@ INSERT INTO `event_details` (`id`, `title`, `edition`, `theme`, `tagline`, `abou
 'Each Organization Prepares Interactive Booths, Demonstrations, Games, Exhibits, And Activities Related To Their Specialization.',
 'ADF2027 A DAY WITH THE FOXES',
 'The purpose of the video is to persuade visitors to explore the School of Computing and encourage them to participate in ADF2027.',
+<<<<<<< HEAD
 'C:\Users\james\Downloads\SCHOOL WORKS\6WEBPUB\ADF2027\vids,images',
+=======
+'https://drive.google.com/drive/u/0/folders/1lTSMcN2soInXU6Al-ETq-qmHkCfRBYdb?fbclid=IwY2xjawU0U3pleHRuA2FlbQIxMABwZG9mBWJyaWQRMVN5RHNIc2tqWmRLdlVXNnZzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeTI2xi6smQsl9DglZlhIpMA1PLMcQGl6yIUAFWTgL42NdVvdwI2GwIJvFnQ0_aem___AOaBnJ2j2UeRNw7Oy8zw',
+>>>>>>> 9265bad519f11b2f68fb52bc0b2af61cdd733365
 'Experience games, activities, organizations, and the School of Computing community.')
 ON DUPLICATE KEY UPDATE `id`=1;
 
